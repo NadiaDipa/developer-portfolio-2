@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    margin: 0;
+    background-color: rgb(161, 184, 207);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.coral-color {
+    color: rgb(197, 62, 13);
+
+}
+
+.button-link {
+    text-decoration: none;
+    background-image: linear-gradient(yellow, coral);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+
+}
+.half-width p{
+    padding-bottom: 10px;
+}
+
+.top-section {
+    padding-left: 50px;
+    display: flex;
+}
+
+.half-width img {
+    width: 90%;
+    padding-top: 20px;
+  
+}
+a:hover {
+    color: rgb(238, 9, 9);
+}
+.middle-section{
+    display: flex;
+    padding-top: 10%;
+  
+}
+.middle-section .half-width img{
+    width: 100%;
+
+    
+}
+.dream-big {
+    padding-left: 30px;
+}
+
+/* experience */
+.experience-section{
+    padding-left: 50px;
+    padding-bottom: 50%;
+}
+.flexible-container {
+    display: flex;
+}
+.full-stack{
+    padding-right: 30px;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px rgb(126, 126, 117);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+.footer-section{
+    text-align: center;
+}
